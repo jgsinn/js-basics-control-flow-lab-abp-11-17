@@ -5,4 +5,3 @@ function scuberGreetingForFeet(feet){
   }
 }
 
-scuberGreetingForFeet();
