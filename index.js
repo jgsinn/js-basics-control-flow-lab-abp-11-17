@@ -16,3 +16,14 @@ function ternaryCheckCity(city){
     return 'No go.'
   }
 }
+
+function switchOnCharmFromTip(tip){
+  switch (new Date().getDay()) {
+    case 0:
+        return 'Thank you so much.'
+    case 1:
+        return 'Thank you.'
+    default:
+        return 'Bye.'
+}
+}
