@@ -19,7 +19,7 @@ function ternaryCheckCity(city){
 
 function switchOnCharmFromTip(tip){
   switch (new Date().getDay()) {
-    case "generous":
+    case 'generous':
         return 'Thank you so much.'
     case 1:
         return 'Thank you.'
